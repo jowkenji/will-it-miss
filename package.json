@@ -1,15 +1,16 @@
 {
   "name": "will-it-miss",
   "version": "1.0.0",
-  "source": "src/index.html", 
+  "source": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build ./src/index.html"
+    "test": "node tests/*.js",
+    "build": "npm run test && parcel build ./src/index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "axios": "^0.27.2",
     "babel-eslint": "^10.1.0",
     "eslint": "^8.18.0",
     "eslint-plugin-react": "^7.30.0",
