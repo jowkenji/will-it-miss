@@ -5,4 +5,4 @@ Here is a list of what I have change in order to make this work:
 - Add type='module' at index.html: <script src="./index.js" type="module"></script>
 - "@parcel/transformer-js browser scripts cannot have imports or exports": add a '.' before the images paths (e.g. './src/img/stars.svg')
 - package.json error when try to npm run build: To solve the error you can replace your "main": "index.js", with "source": "src/index.html",
-- git push github main: 
+- git push github main: master branch was used instead
