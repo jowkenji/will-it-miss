@@ -1,0 +1,9 @@
+# Pastas
+.cache/
+.parcel-cache/
+node_modules/
+
+# Arquivos
+.env
+package-lock.json
+yarn.lock
