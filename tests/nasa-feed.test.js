@@ -38,7 +38,4 @@ function test() {
     });
 }
 
-test().catch((e) => {
-  console.log(`Failed: ${e.message}`);
-  process.exit(1);
-});
+module.exports = test;

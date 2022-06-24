@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "source": "src/index.html",
   "scripts": {
-    "test": "node tests/*.js",
+    "test": "node tests", 
     "build": "npm run test && parcel build ./src/index.html"
   },
   "keywords": [],
